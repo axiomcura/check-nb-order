@@ -22,7 +22,7 @@ A key feature of Jupyter notebooks is the ability to execute code cells independ
 
 ## How does check-nb-order solve this issue
 
-`check-nb-order` uses the `nbformat` package to parse the metadata within the 
+`check-nb-order` uses the `nbformat` package to parse the metadata within the
 
 `check-nb-order` provides two ways to ensure that your Jupyter notebooks are executed in the correct order:
 
@@ -49,3 +49,4 @@ Below is the development stack that is used to develop `check-nb-order`:
 ## License and Contributions
 
 This project is licensed under the [BSD 3-Clause License](LICENSE). The BSD 3-Clause License is a permissive license that allows for broad usage, modification, and distribution of the code, both in open-source and proprietary projects. Contributions to the project are welcomed under this license, meaning that any submitted code will also be distributed under these same terms. The license ensures that contributors retain the right to use their code freely, while also allowing others to use, modify, or redistribute the project as long as they credit the original authors and maintain the license in all redistributions. Commercial use of the code is permitted, but the project or its contributors cannot be used
+****
