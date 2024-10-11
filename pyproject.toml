@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "check-nb-order"
+version = "0.1.0"
+description = "Pre-commit hook to ensure that Jupyter notebooks are executed in sequential order"
+authors = ["axiomcura <erikishere3@gmail.com>"]
+license = "BSD-3-Clause"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.*"
+click = "^8.1.7"
+nbformat = "^5.10.4"
+jupyter = "^1.1.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+pre-commit = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
